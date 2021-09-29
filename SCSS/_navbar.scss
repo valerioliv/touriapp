@@ -1,0 +1,27 @@
+.navbar-nav {
+    align-items: flex-end;
+    justify-content: end;
+}
+.navbar {
+    padding: 0px;
+    margin: 0px;
+}
+.container-fluid {
+    background-color: #00c2cb;
+    padding: 20px;
+    margin: 0;
+
+    justify-content: end;
+}
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav-item {
+    font-size: large;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    font-size: large;
+    color: black;
+    text-decoration: underline;
+}

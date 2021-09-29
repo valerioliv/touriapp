@@ -1,0 +1,61 @@
+.audio_segunda {
+    padding: 50px;
+    text-align: center;
+
+    .titulo {
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;}
+
+    .subtitulo {
+        font-size: 30 px;
+        text-align: center;}
+}
+
+.audio_tercera {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: auto;
+    padding: 50px;
+
+    .audio_tercera_texto {
+        text-align: left;
+        font-size: 40px;
+        font-weight: bold;}
+}
+
+.audio_cuarta {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: auto;
+    padding: 50px;
+
+    .audio_cuarta_texto {
+        text-align: right;
+        font-size: 40px;
+        font-weight: bold;}
+}
+
+.audio_quinta {
+    padding: 50px;
+    background-color: #b0bec5;
+
+    .audio_quinta_titulo {
+        text-align: left;
+        font-size: x-large;
+        font-weight: bold;
+        line-height: 1.5;
+        padding-top: 20px;
+        padding-bottom: 20px;}
+
+    .audio_quinta_texto {
+        margin: 50px;
+        text-align: justify;
+        line-height: 1.5;}
+}

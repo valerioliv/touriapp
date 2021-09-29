@@ -1,0 +1,81 @@
+$titulo:bold, 60px, center;
+$subtitulo: normal, 30px, center;
+
+.index_segunda {
+    padding: 50px;
+    text-align: center;
+
+    .titulo {
+        font-size: 60px;
+        font-weight: bold;
+        text-align: center;}
+
+    .subtitulo {
+        font-size: 30 px;
+        text-align: center;
+    }
+}
+
+.index_tercera {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: auto;
+
+    padding: 50px;
+
+    .index_tercera_texto {
+        text-align: justify;
+        width: 300px;
+        margin-left: 30px;}
+}
+
+.index_cuarta {
+    padding: 50px;
+    background-color: #b0bec5;
+
+    .index_cuarta_titulo {
+        text-align: left;
+        font-size: x-large;
+        font-weight: bold;
+        line-height: 1.5;
+        padding-top: 20px;
+        padding-bottom: 20px;}
+
+    .index_cuarta_cards {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        flex-basis: auto;}
+
+    .btn-primary {
+        background-color:#b0bec5;
+        border-color:#b0bec5;
+        color: black;}
+
+    .btn-primary:hover {
+        background-color: #F36D2E;
+        border-color: #F36D2E;}
+}
+
+.index_quinta {
+    padding: 100px;
+    text-align: center;
+
+    .index_quinta_titulo {
+        font-size: xx-large;
+        font-weight: bold;
+        padding: 10px;}
+
+    .index_quinta_img {
+        padding: 30px;
+        justify-content: space-between;}
+
+    .googleplay .appstore {
+        padding: 10px;}
+}

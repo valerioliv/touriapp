@@ -1,0 +1,183 @@
+@media only screen and (min-width: 320px) and (max-width: 768px)
+    {
+        .index_tercera {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-basis: auto;
+        
+            padding: 50px;
+        }
+        .index_tercera_texto_responsive {
+            text-align: left;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        .index_cuarta_cards {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-around;
+            align-content: space-around;
+            flex-basis: auto;
+            }
+        
+        .index_quinta_img {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-self: center;
+            justify-content: center;
+            justify-items: center;
+            align-content: center;
+        }
+
+        .card {
+            margin-top: 20px;
+        }
+
+        .google {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            align-content: flex-start;
+            flex-basis: auto;
+        }
+
+        .footer_seguinos {
+            margin-top: 20px;
+        }
+
+        .footer_legales {
+            margin-top: 20px;
+        }
+
+        .app_tercera {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            flex-basis: auto;
+        
+            padding: 0px;
+        }
+
+        .app_sexta_cards {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            flex-basis: auto;
+        
+            padding: 30px;
+            text-align: center;
+        }
+
+        .contacto_tercera {
+            padding: 20px;
+            margin-left: 10px;
+            
+        }
+
+    }
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+    {.index_tercera {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-basis: auto;
+    
+        padding: 50px;
+    }
+    .index_tercera_texto_responsive {
+        text-align: left;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .index_cuarta_cards {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+        align-content: space-around;
+        flex-basis: auto;
+        }
+    
+    .index_quinta_img {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-self: center;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+    }
+
+    .card {
+        margin-top: 20px;
+    }
+
+    .google {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-basis: auto;
+    }
+
+    .footer_seguinos {
+        margin-top: 20px;
+    }
+
+    .footer_legales {
+        margin-top: 20px;
+    }
+
+    .app_tercera {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-basis: auto;
+    
+        padding: 0px;
+    }
+
+    .app_sexta_cards {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        flex-basis: auto;
+    
+        padding: 30px;
+        text-align: center;
+    }
+
+    .contacto_tercera {
+        padding: 20px;
+        margin-left: 10px;
+        
+    }
+}

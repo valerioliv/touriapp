@@ -1,0 +1,31 @@
+{
+  "name": "proyectofinalsass2",
+  "version": "1.0.0",
+  "description": "Proyecto Final de Desarrollo Web -CODERHOUSE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/origen.scss css/destino.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valerioliv/Proyecto-TouriApp.git"
+  },
+  "keywords": [
+    "turismo",
+    "audioguías",
+    "tours"
+  ],
+  "author": "Valeria Olivares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valerioliv/Proyecto-TouriApp/issues"
+  },
+  "homepage": "https://github.com/valerioliv/Proyecto-TouriApp#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.13"
+  }
+}
