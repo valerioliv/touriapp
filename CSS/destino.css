@@ -212,62 +212,46 @@ body {
     text-align: justify;
     line-height: 1.5; }
 
-.app_sexta .app_sexta_titulo {
-  font-size: xx-large;
-  font-weight: bold;
-  padding: 70px;
-  padding-bottom: 10px;
-  text-align: center; }
+.app_sexta {
+  margin-bottom: 50px; }
+  .app_sexta .app_sexta_titulo {
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 70px;
+    padding-bottom: 30px;
+    text-align: center; }
+  .app_sexta .card-title-mem {
+    color: #F36D2E;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 15px; }
+  .app_sexta .card {
+    border-color: #00c2cb;
+    width: 300px; }
+  .app_sexta .app_sexta_precio {
+    list-style: none;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center; }
+  .app_sexta li {
+    list-style: none; }
+  .app_sexta .card-text {
+    text-align: justify;
+    margin: 15px; }
+  .app_sexta .card-list {
+    text-align: center;
+    display: inline-block; }
+  .app_sexta .btn-primary {
+    background-color: #b0bec5;
+    border-color: #b0bec5;
+    color: black; }
+  .app_sexta .btn-primary:hover {
+    background-color: #F36D2E;
+    border-color: #F36D2E; }
 
-.app_sexta .app_sexta_cards {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  justify-content: space-around;
-  align-items: flex-start;
-  align-content: center;
-  flex-basis: auto;
-  padding: 30px;
-  text-align: center; }
-
-.app_sexta .card-title-mem {
-  color: #F36D2E;
-  font-size: x-large;
-  font-weight: bold;
-  padding: 5px;
-  margin-top: 15px; }
-
-.app_sexta .card {
-  border-color: #00c2cb; }
-
-.app_sexta .app_sexta_precio {
-  list-style: none;
-  font-size: xx-large;
-  font-weight: bold;
-  text-align: center; }
-
-.app_sexta li {
-  list-style: none; }
-
-.app_sexta .card-text {
-  text-align: justify;
-  margin: 15px; }
-
-.app_sexta .card-list {
-  text-align: center;
-  display: inline-block; }
-
-.app_sexta .card-body-app {
-  height: 525px; }
-
-.app_sexta .btn-primary {
-  background-color: #b0bec5;
-  border-color: #b0bec5;
-  color: black; }
-
-.app_sexta .btn-primary:hover {
-  background-color: #F36D2E;
-  border-color: #F36D2E; }
+.card-item {
+  padding: 10px; }
 
 .contacto_segunda {
   padding: 50px;
@@ -281,73 +265,15 @@ body {
     text-align: center; }
 
 .contacto_tercera {
-  padding: 20px;
-  margin-left: 30px; }
-  .contacto_tercera #nombre {
-    transition: all 2s; }
-  .contacto_tercera #nombre:focus {
-    width: 200px;
-    font-size: 30px; }
-  .contacto_tercera #apellido {
-    transition: all 2s; }
-  .contacto_tercera #apellido:focus {
-    width: 200px;
-    font-size: 30px; }
-  .contacto_tercera #email {
-    transition: all 2s; }
-  .contacto_tercera #email:focus {
-    width: 200px;
-    font-size: 30px; }
-  .contacto_tercera #telefono {
-    transition: all 2s; }
-  .contacto_tercera #telefono:focus {
-    width: 200px;
-    font-size: 30px; }
-  .contacto_tercera #Facebook {
-    transition: all 2s; }
-  .contacto_tercera #Facebook:focus {
-    width: 100px;
-    font-size: 50px; }
-  .contacto_tercera #Instagram {
-    transition: all 2s; }
-  .contacto_tercera #Instagram:focus {
-    width: 100px;
-    font-size: 50px; }
-  .contacto_tercera #Twitter {
-    transition: all 2s; }
-  .contacto_tercera #Twitter:focus {
-    width: 100px;
-    font-size: 50px; }
-  .contacto_tercera #usuario {
-    transition: all 2s; }
-  .contacto_tercera #usuario:focus {
-    width: 200px;
-    font-size: 30px; }
-  .contacto_tercera #comentarios {
-    width: 500px;
-    height: 200px;
-    transition: all 2s; }
-  .contacto_tercera #comentarios:focus {
-    width: 500px;
-    height: 200px;
-    font-size: 30px; }
-  .contacto_tercera #forma {
-    transition: all 2s; }
-  .contacto_tercera #forma:focus {
-    width: 200px;
-    font-size: 15px; }
-  .contacto_tercera #enviar {
-    transition: all 2s; }
-  .contacto_tercera #enviar:hover {
-    width: 200px;
-    height: 50px;
-    font-size: 20px; }
-  .contacto_tercera #borrar {
-    transition: all 2s; }
-  .contacto_tercera #borrar:hover {
-    width: 200px;
-    height: 50px;
-    font-size: 20px; }
+  margin: 30px; }
+  .contacto_tercera .btn-primary {
+    background-color: #b0bec5;
+    border-color: #b0bec5;
+    color: black;
+    margin: 20px; }
+  .contacto_tercera .btn-primary:hover {
+    background-color: #F36D2E;
+    border-color: #F36D2E; }
 
 .contacto_cuarta {
   padding: 50px;
@@ -386,7 +312,7 @@ footer {
   font-weight: bolder;
   font-size: large; }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 200px) and (max-width: 768px) {
   .index_tercera {
     display: flex;
     flex-flow: column nowrap;
@@ -416,6 +342,8 @@ footer {
     margin-top: 20px; }
   .google {
     margin-bottom: 20px; }
+  .app_sexta {
+    margin-left: 70px; }
   footer {
     display: flex;
     flex-flow: column nowrap;
@@ -437,16 +365,13 @@ footer {
     align-content: center;
     flex-basis: auto;
     padding: 0px; }
-  .app_sexta_cards {
+  .app_cuarta_img {
     display: flex;
     flex-flow: column nowrap;
+    justify-self: center;
     justify-content: center;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    flex-basis: auto;
-    padding: 30px;
-    text-align: center; }
+    justify-items: center;
+    align-content: center; }
   .contacto_tercera {
     padding: 20px;
     margin-left: 10px; } }

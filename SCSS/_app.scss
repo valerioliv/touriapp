@@ -55,23 +55,14 @@
 }
 
 .app_sexta {
+
+    margin-bottom: 50px;
+
     .app_sexta_titulo {
         font-size: xx-large;
         font-weight: bold;
         padding: 70px;
-        padding-bottom: 10px;
-        text-align: center;}
-
-    .app_sexta_cards {
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: center;
-        justify-content: space-around;
-        align-items: flex-start;
-        align-content: center;
-        flex-basis: auto;
-
-        padding: 30px;
+        padding-bottom: 30px;
         text-align: center;}
 
     .card-title-mem {
@@ -82,7 +73,8 @@
         margin-top: 15px;}
 
     .card {
-        border-color: #00c2cb;}
+        border-color: #00c2cb;
+        width: 300px;}
 
     .app_sexta_precio {
         list-style: none;
@@ -103,15 +95,16 @@
             display:inline-block;
         }
 
-    .card-body-app {
-        height: 525px;}
-
-        .btn-primary {
+    .btn-primary {
             background-color:#b0bec5;
             border-color:#b0bec5;
             color: black;}
     
-        .btn-primary:hover {
+    .btn-primary:hover {
             background-color: #F36D2E;
             border-color: #F36D2E;}
+}
+
+.card-item {
+    padding: 10px;   
 }
