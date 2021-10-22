@@ -1,6 +1,6 @@
 .navbar-nav {
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .navbar {
     padding: 0px;
@@ -11,7 +11,7 @@
     padding: 20px;
     margin: 0;
 
-    justify-content: center;
+    justify-content: flex-end;
 }
 .navbar-brand {
     font-size: xx-large;
@@ -24,4 +24,9 @@
     font-size: large;
     color: black;
     text-decoration: underline;
+}
+
+.navbar-nav lapse show {
+    align-items: center;
+    justify-content: center;
 }

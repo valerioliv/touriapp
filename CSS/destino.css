@@ -1,6 +1,6 @@
 .navbar-nav {
   align-items: center;
-  justify-content: center; }
+  justify-content: flex-end; }
 
 .navbar {
   padding: 0px;
@@ -10,7 +10,7 @@
   background-color: #00c2cb;
   padding: 20px;
   margin: 0;
-  justify-content: center; }
+  justify-content: flex-end; }
 
 .navbar-brand {
   font-size: xx-large;
@@ -23,6 +23,10 @@
   font-size: large;
   color: black;
   text-decoration: underline; }
+
+.navbar-nav lapse show {
+  align-items: center;
+  justify-content: center; }
 
 body {
   padding-top: 0px;
@@ -93,7 +97,9 @@ body {
     font-weight: bold;
     padding: 10px; }
   .index_quinta .index_quinta_img {
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
     justify-content: space-between; }
   .index_quinta .googleplay .appstore {
     padding: 10px; }
@@ -181,11 +187,13 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
-  justify-content: space-around;
   align-items: center;
   align-content: center;
-  flex-basis: auto;
-  padding: 50px; }
+  flex-basis: auto; }
+  .app_tercera .app_tercera_imgprimera {
+    padding: 40px; }
+  .app_tercera .app_tercera_imgsegunda {
+    padding: 40px; }
 
 .app_cuarta {
   padding: 100px;
@@ -195,7 +203,10 @@ body {
     font-weight: bold;
     padding: 10px; }
   .app_cuarta .app_cuarta_img {
-    padding: 30px; }
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: space-between; }
 
 .app_quinta {
   padding: 50px;
@@ -342,8 +353,26 @@ footer {
     margin-top: 20px; }
   .google {
     margin-bottom: 20px; }
+  .audio_tercera {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: auto;
+    padding: 50px; }
+  .audio_cuarta {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: auto;
+    padding: 50px; }
   .app_sexta {
-    margin-left: 70px; }
+    margin-left: 0px; }
+    .app_sexta .app_sexta_cards {
+      margin-left: 35px; }
   footer {
     display: flex;
     flex-flow: column nowrap;

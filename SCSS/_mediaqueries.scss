@@ -40,8 +40,32 @@
             margin-bottom: 20px;
         }
 
+        .audio_tercera {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-basis: auto;
+            
+            padding: 50px;}
+
+        .audio_cuarta {
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            flex-basis: auto;
+                
+            padding: 50px;}
+
         .app_sexta {
-            margin-left: 70px;
+            margin-left: 0px;
+
+            .app_sexta_cards {
+                margin-left: 35px;
+            }
         }
 
         footer {

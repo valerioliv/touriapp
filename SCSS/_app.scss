@@ -16,11 +16,17 @@
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    justify-content: space-around;
     align-items: center;
     align-content: center;
     flex-basis: auto;
-    padding: 50px;
+
+    .app_tercera_imgprimera {
+        padding: 40px;
+    }
+
+    .app_tercera_imgsegunda {
+        padding: 40px;
+    }
 }
 
 .app_cuarta {
@@ -33,7 +39,10 @@
         padding: 10px;}
 
     .app_cuarta_img {
-        padding: 30px;}
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+        justify-content: space-between;}
     }
 
 .app_quinta {
