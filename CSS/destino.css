@@ -302,7 +302,7 @@ body {
     text-align: justify;
     text-align: left;
     font-size: large;
-    line-height: 0.5;
+    line-height: 1;
     padding-top: 10px;
     padding-bottom: 10px; }
 
@@ -361,6 +361,10 @@ footer {
     align-content: center;
     flex-basis: auto;
     padding: 50px; }
+  .audio_tercera_texto {
+    text-align: center; }
+  .audio_cuarta_texto {
+    text-align: center; }
   .audio_cuarta {
     display: flex;
     flex-flow: column nowrap;
