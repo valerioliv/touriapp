@@ -165,12 +165,18 @@ body {
     font-size: x-large;
     font-weight: bold;
     line-height: 1.5;
-    padding-top: 20px;
     padding-bottom: 20px; }
   .audio_quinta .audio_quinta_texto {
     margin: 50px;
     text-align: justify;
     line-height: 1.5; }
+  .audio_quinta .audio_quinta_titulo_segundo {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 20px;
+    padding-left: 0px; }
 
 .app_segunda {
   padding: 50px;
@@ -335,7 +341,8 @@ footer {
   .index_tercera_texto_responsive {
     text-align: left;
     margin-left: 0;
-    padding-left: 0; }
+    padding-left: 0;
+    padding-top: 20px; }
   .index_cuarta_cards {
     display: flex;
     flex-flow: column nowrap;
@@ -364,7 +371,8 @@ footer {
   .audio_tercera_texto {
     text-align: center; }
   .audio_cuarta_texto {
-    text-align: center; }
+    text-align: center !important;
+    justify-content: center; }
   .audio_cuarta {
     display: flex;
     flex-flow: column nowrap;
@@ -372,11 +380,12 @@ footer {
     align-items: center;
     align-content: center;
     flex-basis: auto;
+    text-align: center;
     padding: 50px; }
   .app_sexta {
     margin-left: 0px; }
     .app_sexta .app_sexta_cards {
-      margin-left: 35px; }
+      margin-left: 45px; }
   footer {
     display: flex;
     flex-flow: column nowrap;
